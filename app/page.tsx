@@ -29,7 +29,7 @@ export default function Page() {
             </>
           }
           rightHalf={
-            <Image src={"/products/phone.png"} alt="section-image" width={500} height={100} className="w-1/2 h-auto" />
+            <Image src={"/products/Robot.png"} alt="section-image" width={500} height={100} className="w-1/2 h-auto" />
           }
         />
         <Customers />
