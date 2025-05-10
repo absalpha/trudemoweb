@@ -3,8 +3,18 @@ import Image from "next/image";
 import MemberCard, { Member } from "../../components/MemberCard";
 
 const members: Member[] = [
-  { photoSrc: "/Robot.png", name: "Alice Nguyen", role: "Project Manager", contact: "alice@example.com" },
-  { photoSrc: "/Robot.png", name: "Bob Patel",       role: "Lead Engineer",    contact: "bob@example.com" },
+    { photoSrc: "../../public/products/Robot.png", name: "Parker Caywood Mayer", 
+    role: "Project Manager", contact: "mayerpa@oregonstate.edu" },
+    { photoSrc: "../../public/products/Robot.png", name: "Crystal Lee",       
+    role: "Robot Wiring Designer",    contact: "leecry@oregonstate.edu" },
+    { photoSrc: "../../public/products/Robot.png", name: "Evelyn Nixon",       
+    role: "Modelling Designer",    contact: "nixone@oregonstate.edu" },
+    { photoSrc: "../../public/products/Robot.png", name: "Him Shun Lee",       
+    role: "Arduino Compilation Engineer",    contact: "leehi@oregonstate.edu" },
+    { photoSrc: "../../public/products/Robot.png", name: "Ian Dugo",       
+    role: "Level Designer and Inventory Manager",    contact: "dugoi@oregonstate.edu" },
+    { photoSrc: "../../public/products/Robot.png", name: "Luke Williams",       
+    role: "Robot Simulation and Texturing Engineer",    contact: "williluk@oregonstate.edu" },
   // …add more members as needed
 ];
 
@@ -15,7 +25,7 @@ export default function ContactPage() {
       <h1 className="text-5xl font-bold text-center mb-8">Our Team</h1>
       <div className="flex justify-center mb-12">
         <Image
-          src="/Robot.png"
+          src="../../public/products/Robot.png"
           alt="Team placeholder"
           width={300}
           height={300}
