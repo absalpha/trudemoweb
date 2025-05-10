@@ -7,14 +7,14 @@ export default function Hero() {
         Embrace the power of robotic and programming!
       </h1>
       <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 font-light">
-        The one and done educational tool
+        The game that can teach
       </p>
       <div className="flex justify-center space-x-6">
         <Link
           href="/get-started"
           className="bg-black text-white dark:bg-white dark:text-black px-5 py-2 rounded-md text-base font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition duration-300"
         >
-          Get Started
+          Learn more
         </Link>
         <Link
           href="https://github.com"
