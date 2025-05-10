@@ -1,22 +1,22 @@
 import React from "react";
 import FeatureCard from "./FeatureCard";
-import { FaReact, FaDatabase, FaShieldAlt } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss, SiStripe } from "react-icons/si";
+import { FaNetworkWired, FaGamepad } from "react-icons/fa";
+import { SiArduino } from "react-icons/si";
 
 const Features = () => {
   const features = [
     {
-      icon: SiNextdotjs,
+      icon: FaNetworkWired,
       title: "Wiring",
       description: "Learn to wire pins on robots",
     },
     {
-      icon: FaReact,
+      icon: SiArduino ,
       title: "Coding",
       description: "Learn to code in Arduino C++",
     },
     {
-      icon: FaDatabase,
+      icon: FaGamepad ,
       title: "Gaming",
       description: "Move the robot across the arena and clear different levels",
     },

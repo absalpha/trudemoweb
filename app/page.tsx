@@ -20,11 +20,11 @@ export default function Page() {
           leftHalf={
             <>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-                Effortlessly highlight the key features of your app
+                Control the robot via code and clear each level
               </h2>
               <p className="text-xl font-light">
-                Our app makes it easy to showcase your key features. With customizable sections, you can highlight the
-                most important aspects of your product. More to come.
+                Our game has different levels for student to complete. They have to learn to wire the robot and code in C++ 
+                for the robot to move properly. In the process learn about coding logic, simple syntax, function declaration and more
               </p>
             </>
           }
@@ -32,7 +32,7 @@ export default function Page() {
             <Image src={"/products/Robot.png"} alt="section-image" width={500} height={150} className="w-1/2 h-auto" />
           }
         />
-        <Customers />
+        
         <Section
           leftHalf={<Accordion />}
           rightHalf={
@@ -49,6 +49,7 @@ export default function Page() {
         />
         
         <Download />
+        <Customers />
       </main>
       <Footer />
     </div>
