@@ -40,18 +40,18 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content, isOpen, t
 
 const defaultAccordionItems = [
   {
-    title: "Sign up for free",
-    content: "Start your journey with a 34-day trial. It's easy no credit card or commitment.",
+    title: "Free",
+    content: "Our game is completely free to use and free to play",
   },
   {
     title: "Easy to use",
     content:
-      "Our app is designed to be user-friendly and easy to use. We want to provide a seamless experience for your users so that you can focus on what matters.",
+      "Our app is designed to be user-friendly and easy to use. We provided instruction on playing and installing the game",
   },
   {
-    title: "Focus on what matters",
+    title: "Compatible with real world robot",
     content:
-      "With better financial management, you can reduce money-related stress and focus on what matters most. More to come.",
+      "Our game is a directly simulation of the actual robot, student who wanted to learn more can look for the actual robot and have a starting ground",
   },
 ];
 

@@ -37,11 +37,11 @@ export default function Page() {
           rightHalf={
             <div className="flex flex-col justify-end">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-                Highlight the key features
+                Major benifit of choosing our game
               </h2>
               <p className="text-xl font-light">
-                Talk about some of the key features of your app that you want to highlight. Use the beautiful accordion
-                to highlight the key features of your app.
+                Without any directly competitors, our game provide unqiue support for teachers planning on creating 
+                an interactive class for high school studnets
               </p>
             </div>
           }
