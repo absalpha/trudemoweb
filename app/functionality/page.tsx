@@ -11,11 +11,55 @@ export default function Page() {
           leftHalf={
             <>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-                Control the robot via code and clear each level
+                Inventory Desk
               </h2>
               <p className="text-xl font-light">
-                Our game has different levels for student to complete. They have to learn to wire the robot and code in C++ 
-                for the robot to move properly. In the process learn about coding logic, simple syntax, function declaration and more
+                Some text
+              </p>
+            </>
+          }
+          rightHalf={
+            <Image src={"/products/Robot.png"} alt="section-image" width={500} height={150} className="w-1/2 h-auto" />
+          }
+        />
+                <Section
+          leftHalf={
+            <>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
+                Wiring
+              </h2>
+              <p className="text-xl font-light">
+                Some text
+              </p>
+            </>
+          }
+          rightHalf={
+            <Image src={"/products/Robot.png"} alt="section-image" width={500} height={150} className="w-1/2 h-auto" />
+          }
+        />
+                <Section
+          leftHalf={
+            <>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
+                Coding
+              </h2>
+              <p className="text-xl font-light">
+                This is basic C++ Arduino compiler
+              </p>
+            </>
+          }
+          rightHalf={
+            <Image src={"/products/Robot.png"} alt="section-image" width={500} height={150} className="w-1/2 h-auto" />
+          }
+        />
+                <Section
+          leftHalf={
+            <>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
+                Run the robot
+              </h2>
+              <p className="text-xl font-light">
+                Reach the exit to beat a level
               </p>
             </>
           }
