@@ -19,11 +19,11 @@ export default function Page() {
           leftHalf={
             <>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-                Control the robot via code and clear each level
+                Tech education is crying out for disruption. We have a fresh approach
               </h2>
               <p className="text-xl font-light">
-                Our game has different levels for student to complete. They have to learn to wire the robot and code in C++ 
-                for the robot to move properly. In the process learn about coding logic, simple syntax, function declaration and more
+                The Robot Underground™ aims to break open tech education for middle and high schoolers everywhere, 
+                even if they live in a robot wasteland
               </p>
             </>
           }
@@ -37,11 +37,11 @@ export default function Page() {
           rightHalf={
             <div className="flex flex-col justify-end">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-                Major benifit of choosing our game
+                There’s no one out there like us
               </h2>
               <p className="text-xl font-light">
-                Without any directly competitors, our game provide unqiue support for teachers planning on creating 
-                an interactive class for high school studnets
+                Our game allows players to learn while having fun solving puzzles and uncovering the mysteries behind the world they arrived in, 
+                an aspect most other educational tools neglect
               </p>
             </div>
           }

@@ -7,18 +7,18 @@ const Features = () => {
   const features = [
     {
       icon: FaNetworkWired,
-      title: "Wiring",
-      description: "Learn to wire pins on robots",
+      title: "Wire",
+      description: "Connect parts together to make a robot",
     },
     {
       icon: SiArduino ,
-      title: "Coding",
-      description: "Learn to code in Arduino C++",
+      title: "Code",
+      description: "Add code to make it move",
     },
     {
       icon: FaGamepad ,
-      title: "Gaming",
-      description: "Move the robot across the arena and clear different levels",
+      title: "Test",
+      description: "Test and iterate until you finish the level",
     },
   ];
 
@@ -28,7 +28,7 @@ const Features = () => {
         <div className="text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">Features</h2>
           <p className="mt-8 text-xl text-gray-600 dark:text-gray-300 font-light">
-            Enable students to become future engineering and help teachers to design a better class
+            Play around in a virtual world while building real skills
           </p>
         </div>
         <div className="mt-10">

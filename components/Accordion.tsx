@@ -40,18 +40,18 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content, isOpen, t
 
 const defaultAccordionItems = [
   {
+    title: "Skill agnostic",
+    content: "No matter what level players start at, we give them the tools to learn and grow",
+  },
+  {
     title: "Free",
-    content: "Our game is completely free to use and free to play",
+    content:
+      "Our game is completely free to play",
   },
   {
-    title: "Easy to use",
+    title: "Active learning",
     content:
-      "Our app is designed to be user-friendly and easy to use. We provided instruction on playing and installing the game",
-  },
-  {
-    title: "Compatible with real world robot",
-    content:
-      "Our game is a directly simulation of the actual robot, student who wanted to learn more can look for the actual robot and have a starting ground",
+      "“Players are encouraged to look for information themselves, building the skills to conquer anything",
   },
 ];
 

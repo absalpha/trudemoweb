@@ -1,22 +1,18 @@
 import React from "react";
 import {
-  AiOutlineDiscord,
-  AiTwotoneBug,
-  AiTwotoneExperiment,
-  AiOutlineTaobao,
-  AiOutlineSpotify,
-  AiOutlineCode,
-  AiOutlineCiCircle,
-} from "react-icons/ai";
+  FaGithub,      // GitHub
+  FaInstagram,   // Instagram
+  FaYoutube,     // YouTube
+  FaGlobe,       // generic “web” icon
+} from 'react-icons/fa';
+import { SiTiktok } from 'react-icons/si'; 
 
 const icons = [
-  { Icon: AiTwotoneBug },
-  { Icon: AiOutlineDiscord },
-  { Icon: AiTwotoneExperiment },
-  { Icon: AiOutlineTaobao },
-  { Icon: AiOutlineSpotify },
-  { Icon: AiOutlineCode },
-  { Icon: AiOutlineCiCircle },
+  { Icon: FaGithub },
+  { Icon: FaInstagram },
+  { Icon: FaYoutube },
+  { Icon: FaGlobe },
+  { Icon: SiTiktok },
 ];
 
 const Customers: React.FC = () => {
@@ -26,7 +22,7 @@ const Customers: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row w-full">
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-6 md:mb-0 text-white dark:text-black text-center md:text-left md:w-1/3">
-              Partner schools that used our game as teaching tool
+              Follow us on social media
             </h2>
             <div className="flex flex-wrap justify-center md:justify-end gap-6 md:w-2/3">
               {icons.map(({ Icon }, index) => (
