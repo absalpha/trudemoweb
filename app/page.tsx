@@ -50,7 +50,7 @@ export default function Page() {
         <Download />
         <Customers />
       </main>
-      <Footer />
+     
     </div>
   );
 }
