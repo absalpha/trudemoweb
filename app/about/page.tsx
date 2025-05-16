@@ -3,9 +3,6 @@
 import React from 'react'
 import Image from 'next/image'
 
-export const metadata = {
-  title: 'About',
-}
 
 export default function AboutPage() {
   return (
