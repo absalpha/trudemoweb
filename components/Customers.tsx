@@ -8,11 +8,11 @@ import {
 import { SiTiktok } from 'react-icons/si'; 
 
 const icons = [
-  { Icon: FaGithub },
-  { Icon: FaInstagram },
-  { Icon: FaYoutube },
-  { Icon: FaGlobe },
-  { Icon: SiTiktok },
+  { Icon: FaGithub, url:"https://github.com/sicktronics/The-Robot-Underground-Demo"},
+  { Icon: FaInstagram,url: "https://www.instagram.com/therobotunderground/"  },
+  { Icon: FaYoutube,url:"https://www.youtube.com/channel/UCGiVgfm5pshJ7L6ViB6xAog" },
+  { Icon: FaGlobe,url: "https://robotunderground.party/"},
+  { Icon: SiTiktok,url: "https://www.instagram.com/therobotunderground/"},
 ];
 
 const Customers: React.FC = () => {
@@ -26,9 +26,15 @@ const Customers: React.FC = () => {
             </h2>
             <div className="flex flex-wrap justify-center md:justify-end gap-6 md:w-2/3">
               {icons.map(({ Icon }, index) => (
-                <div key={index} className="flex flex-col items-center justify-center">
-                  <Icon className="text-3xl md:text-4xl text-white dark:text-black" />
-                </div>
+              <a
+                key={index}
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center text-white dark:text-black hover:opacity-75"
+              >
+                <Icon className="text-3xl md:text-4xl" />
+              </a>
               ))}
             </div>
           </div>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaSteam, FaGithub } from "react-icons/fa";
+import { FaItchIo, FaGithub } from "react-icons/fa";
 
 const Download: React.FC = () => (
   <section className="container mx-auto py-24 px-4 md:px-6">
@@ -17,21 +17,21 @@ const Download: React.FC = () => (
       <div className="w-full md:w-1/2 order-2 flex justify-center md:justify-end">
         <div className="flex flex-col justify-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-            Download our game
+            Download Now
           </h2>
           <p className="text-xl text-gray-800 dark:text-gray-300 mb-6 font-light">
-            Either from steam or you can visit our repo
+            You can get it on itch.io or build it from source from our GitHub
           </p>
           <div className="flex space-x-4">
             <Link
               href="#"
               className="download-button bg-black dark:bg-white text-white dark:text-black px-5 py-2 rounded-md text-base flex items-center space-x-2 transition-colors duration-200"
             >
-              <FaSteam className="text-2xl" />
-              <span>Steam</span>
+              <FaItchIo className="text-2xl" />
+              <span>itch.io</span>
             </Link>
             <Link
-              href="#"
+              href="https://github.com/sicktronics/The-Robot-Underground-Demo"
               className="download-button bg-black dark:bg-white text-white dark:text-black px-5 py-2 rounded-md text-base flex items-center space-x-2 transition-colors duration-200"
             >
               <FaGithub className="text-2xl" />
