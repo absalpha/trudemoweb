@@ -27,7 +27,7 @@ If you want to follow the next chapter of The Robot Underground (spoiler alert: 
       <h2 className="text-4xl font-semibold text-center mb-8">Timeline</h2>
       <div className="w-full flex justify-center">
         <Image
-          src="/Website_Graphix_5.png"       // or "/images/timeline.png"
+          src="/products/Website_Graphix_5.png"       // or "/images/timeline.png"
           alt="Timeline graphic"
           width={1000}              // pick a width that suits your design
           height={400}              // adjust height proportionally
