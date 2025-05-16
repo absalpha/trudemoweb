@@ -25,7 +25,7 @@ const Customers: React.FC = () => {
               Follow us on social media
             </h2>
             <div className="flex flex-wrap justify-center md:justify-end gap-6 md:w-2/3">
-              {icons.map(({ Icon }, index) => (
+              {icons.map(({ Icon,url }, index) => (
               <a
                 key={index}
                 href={url}
