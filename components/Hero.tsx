@@ -17,7 +17,7 @@ export default function Hero() {
           The Robots
         </Link>
         <Link
-          href="https://github.com/sicktronics/The-Robot-Underground-Demo"
+          href="https://therobotunderground.itch.io/the-robot-underground-demo"
           className="bg-black text-white dark:bg-white dark:text-black px-5 py-2 rounded-md text-base font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition duration-300"
         >
           The Demo

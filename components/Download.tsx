@@ -24,7 +24,7 @@ const Download: React.FC = () => (
           </p>
           <div className="flex space-x-4">
             <Link
-              href="#"
+              href="https://therobotunderground.itch.io/the-robot-underground-demo"
               className="download-button bg-black dark:bg-white text-white dark:text-black px-5 py-2 rounded-md text-base flex items-center space-x-2 transition-colors duration-200"
             >
               <FaItchIo className="text-2xl" />
